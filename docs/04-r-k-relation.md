@@ -200,7 +200,7 @@ hysteresis:
 
 The explanation lies in the presence of **two simultaneously stable states**, one
 incoherent and one synchronized: the system has two attractors. In the simulation,
-bistability (two distinct stationary values) occurs for $K\approx1.25$–$1.5$, and is
+bistability (two distinct stationary values) occurs for $1.25\lesssim K\lesssim1.5$, and is
 clearest at $K=1.5$, where the backward branch is synchronized and the forward branch
 is not yet. Below that, the difference between branches is due to the oscillations of
 $r$. Therefore, in addition to the well-known $K_c$, a second critical value $K_s$
@@ -229,7 +229,7 @@ The transition is no longer continuous and gradual as in the Lorentzian case.
 > forward branch remains incoherent at $K=1.75$ and jumps at $K=2$. What is
 > preserved, as verified with seeds 1 and 2, is the abrupt character of the
 > transition and the hysteresis between branches: the backward branch remains
-> synchronized at $K=1.5$ ($r\approx0.77$–$0.78$), whereas the forward branch is not
+> synchronized at $K=1.5$ ($r\approx0.77\text{–}0.78$), whereas the forward branch is not
 > yet synchronized.
 
 ## Comparison
@@ -238,7 +238,7 @@ The transition is no longer continuous and gradual as in the Lorentzian case.
 |---|---|---|
 | Transition | continuous, $r\propto\sqrt{K-K_c}$, exactly at $K_c$ | abrupt (jump in $r$), somewhat before $K_c$ |
 | Bifurcation | supercritical | subcritical |
-| Stable states below $K_c$ | one (incoherent) | two (bistability for $K\approx1.25$–$1.5$, clearest at $K=1.5$) |
+| Stable states below $K_c$ | one (incoherent) | two (bistability for $1.25\lesssim K\lesssim1.5$, clearest at $K=1.5$) |
 | Dependence on the initial state | no: continuous, supercritical transition | yes (hysteresis) |
 | $r(t)$ below $K_c$ | noise around 0 | oscillations |
 | Analytical relation $r(K)$ | exact | none |
