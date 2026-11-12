@@ -19,8 +19,8 @@ All documents follow the same structure:
 |---|---|---|
 | [1. The model and the simulation](01-model.md) | Kuramoto model, order parameters, the $N\to\infty$ limit and partial synchronization, generation of the natural frequencies and operation of the simulation | `functions.py`, `basic.py` |
 | [2. Optimal simulation conditions](02-numerical-parameters.md) | Choice of the number of oscillators $N$ and of the time step $dt$ | `conditions.py` |
-| [3. Study of the evolution through the order parameter $r$](03-evolution-r.md) | Transition from the coherent to the incoherent state ($K=0$) and from the incoherent to the coherent state ($K\gg K_c$) | `order_to_chaos.py`, `chaos_to_order.py` |
-| [4. Study of the relation between $r$ and $K$](04-r-k-relation.md) | Supercritical transition (Lorentzian) and subcritical transition with hysteresis (arcsine) | `relation_r-k.py` |
+| [3. Study of the evolution through the order parameter *r*](03-evolution-r.md) | Transition from the coherent to the incoherent state ($K=0$) and from the incoherent to the coherent state ($K\gg K_c$) | `order_to_chaos.py`, `chaos_to_order.py` |
+| [4. Study of the relation between *r* and *K*](04-r-k-relation.md) | Supercritical transition (Lorentzian) and subcritical transition with hysteresis (arcsine) | `relation_r-k.py` |
 
 Documents 2–4 correspond to results 1–3 of the [README](../README.md). Documents 3
 and 4 each examine two cases: the same experiment with different initial conditions
